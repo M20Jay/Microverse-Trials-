@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content=
-        "width=device-width, initial-scale=1.0">
+        "width=device-width, initial-scale=0.5">
     <title>
-        Build a Survey Form using HTML and CSS
+        Survey creation using HTML and CSS
     </title>
  
     <style>
@@ -15,30 +15,30 @@
         /* Styling the Body element i.e. Color,
         Font, Alignment */
         body {
-            background-color: #05c46b;
-            font-family: Verdana;
-            text-align: center;
+            background-color: #031f12;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: left;
         }
  
         /* Styling the Form (Color, Padding, Shadow) */
         form {
-            background-color: #fff;
-            max-width: 500px;
-            margin: 50px auto;
-            padding: 30px 20px;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgb(180, 19, 19);
+            max-width: 200px;
+            margin: 30px auto;
+            padding: 20px 30px;
+            box-shadow: 3px 15px 10px rgba(42, 155, 69, 0.603);
         }
  
         /* Styling form-control Class */
         .form-control {
-            text-align: left;
-            margin-bottom: 25px;
+            text-align: right;
+            margin-bottom: 15px;
         }
  
         /* Styling form-control Label */
         .form-control label {
-            display: block;
-            margin-bottom: 10px;
+            display: contents;
+            margin-bottom: 5px;
         }
  
         /* Styling form-control input,
@@ -64,8 +64,8 @@
  
         /* Styling Button */
         button {
-            background-color: #05c46b;
-            border: 1px solid #777;
+            background-color: #c40561;
+            border: 1px solid rgb(211, 180, 29);
             border-radius: 2px;
             font-family: inherit;
             font-size: 21px;
@@ -78,7 +78,7 @@
 </head>
   
 <body>
-    <h1>GeeksforGeeks Survey Form</h1>
+    <h1>Microverse Trial 1 Survey Form</h1>
   
     <!-- Create Form -->
     <form id="form">
@@ -91,7 +91,7 @@
  
             <!-- Input Type Text -->
             <input type="text"
-                   id="name"
+                   id=" your name"
                    placeholder="Enter your name" />
         </div>
   
@@ -101,9 +101,9 @@
             </label>
  
             <!-- Input Type Email-->
-            <input type="email"
+            <input type="email address"
                    id="email"
-                   placeholder="Enter your email" />
+                   placeholder="Enter your email address" />
         </div>
   
         <div class="form-control">
